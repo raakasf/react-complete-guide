@@ -43,7 +43,11 @@ const ExpenseForm = (props) => {
       date: new Date(userInput.enteredDate),
     }
     console.log(expenseData);
-    return expenseData;
+    setUserInput({
+      enteredTitle: '',
+      enteredAmount: '',
+      enteredDate: ''
+    });
   };
 
   return (
