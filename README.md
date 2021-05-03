@@ -1,4 +1,9 @@
-# Notes from Course
+# Live version of this project lives here:
+
+https://railway.app/project/913be7d5-431a-4ed6-8ffe-563010bd23f9/deployments
+https://spiteful-gun-production.up.railway.app/
+
+## Notes from Course
 
 - React is all about splitting your app in small components
 - SPA - server only sends one HTML page, then React takes over and controls UI
