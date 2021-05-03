@@ -20,14 +20,12 @@ const Expenses = (props) => {
     <Card className="expenses">
       <ExpenseFilter selected={filteredYear} onChangeFilter={filterChangeHandler} />
       {
-        filterExpenses.map(expense => {
-          // props.items.map((expense) => {
+        (filterExpenses.length === 0) ? <p>No expenses</p> : filterExpenses.map(expense => {
           return <ExpenseItem
             title={expense.title}
             amount={expense.amount}
             date={expense.date}
           />
-          // })
         })
       }
     </Card>
